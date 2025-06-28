@@ -1,0 +1,21 @@
+include README.md
+include LICENSE
+include IMPLEMENTATION_SUMMARY.md
+include requirements.txt
+include pyproject.toml
+
+# Include templates
+recursive-include agent_studio/templates *
+
+# Include examples
+recursive-include examples *
+
+# Include documentation
+recursive-include docs *
+
+# Exclude certain files
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude .git*
+global-exclude .DS_Store
+global-exclude *.log
