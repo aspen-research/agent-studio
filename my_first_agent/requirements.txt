@@ -1,0 +1,25 @@
+# Agent Studio core requirements
+agent-studio>=1.0.0
+
+# LangGraph for workflows
+langgraph>=0.1.0
+
+# CLI framework
+click>=8.0.0
+
+# Async support
+asyncio
+
+# Logging and utilities
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# Optional: Database support
+# sqlalchemy>=2.0.0
+# alembic>=1.0.0
+
+# Development dependencies
+# pytest>=7.0.0
+# pytest-asyncio>=0.21.0
+# black>=23.0.0
+# flake8>=6.0.0
